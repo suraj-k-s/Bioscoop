@@ -1,0 +1,87 @@
+.ListItemC {
+  width: 225px;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+  margin-right: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+}
+
+.ListItemC img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ListItemC:hover {
+  width: 325px;
+  height: 300px;
+  top: auto;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.719);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.719);
+  border-radius: 5px;
+}
+
+.ListItemC:hover img {
+  height: 140px;
+}
+
+.ListItemC:hover .Iteminfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+.ButtonAA{
+  padding: 5px;
+}
+
+.ListItemC:hover .Iteminfo .Icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.ListItemC:hover .Iteminfo .Icons .icon {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.ListItemC:hover .Iteminfo .itemInfoTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 151, 151);
+}
+
+.ListItemC:hover .Iteminfo .itemInfoTop .limit {
+  border: 1px solid rgb(156, 156, 156);
+  padding: 1px 3px;
+  margin: 0 10px;
+}
+
+.ListItemC:hover .Iteminfo .desc {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.ListItemC:hover .Iteminfo .genre {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,334 @@
+.distributedmovies {
+  height: 90vh;
+  position: relative;
+  width: 1372px;
+  margin-left: 0px;
+  margin-top: 0;
+  
+ 
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+.modal-bgd{
+  position: fixed;
+  z-index: 2 ;
+  width: 100%;
+  border-radius:5px;
+  height: 100vh;
+  top: 10px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s opacity 0,5s;
+}
+.bg-active{
+  visibility: visible;
+  opacity: 1;
+}
+.modald{
+  position: relative;
+  background-color: #000000b9;
+  height: 60%;
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.centermodald .labeldis{
+  left: 0;
+}
+
+.modal-close1{
+  position: absolute;
+  color: red;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.h3{
+  color:rgb(102 178 255) ;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.subcand{
+  margin-top: 20px;
+  margin-left:120px ;
+  display: flex;
+  flex-direction: row;
+}
+.subcand1{
+color: white;
+
+background-color:rgb(102 178 255) ;
+}
+.subcand2{
+color: white;
+
+background-color:rgb(255, 0, 0) ;
+}
+.subcand1:hover{
+background-color:  rgb(0, 72, 145);
+}
+.subcand2:hover{
+background-color: rgb(141, 0, 0);
+}
+.modald  input {
+  height: 40px;   
+  width: 300px;
+  z-index: 2;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.413);
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
+.modald .selectdistributor{
+  height: 40px;   
+  width: 311px;
+  z-index: 2;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.413);
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
+.modald .inputfielddistributor, .selectdistributor{
+  margin-left:20px;
+}
+.inputfielddistributor[type="file"]{
+border: 1px solid rgb(120, 120, 120);
+}
+.inputfielddistributor[type="date"]{
+  border: 1px solid rgb(120, 120, 120);
+  }
+.modald .labeldis{
+ align-items: left;
+}
+.distributedbackMovie{
+  background-color: rgb(0 30 60);
+  margin-left: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+.distributedCover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.distributedcategory {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.distributedinfo {
+  left: 30px;
+  bottom: 240px;
+  margin-right: 400px;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  margin-bottom: 20px 0px;
+}
+.distributedDesc{
+  line-height: 1.5s;
+}
+.distributedoverlay {
+  width: 100%;
+  height: 121%;
+  background: #0000008a;
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+}
+
+.distributedbuttons {
+  display: flex;
+}
+.distributeditemInfoTop5{
+  padding-bottom: 5px;
+  font-weight: 800;
+}
+.distributeditemInfoTop5 .distributedlimit {
+  border: 1px solid gray;
+  padding: 1px 3px;
+  margin: 0 10px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.distributedPlay {
+  background-color: white;
+  color: black;
+}
+.distributedMore {
+  background-color: gray;
+  color: white;
+}
+span {
+  margin-left: 5px;
+}
+.DListMovie {
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+  /* background-color:rgba(7, 7, 7, 0.45); */
+  
+}
+.DWrapperC {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+.DsliderArrow {
+  color: black;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.301)   ;
+}
+.left{
+    left: 0;
+    margin-right: 50px;
+}
+.right{
+    right: 0;
+    margin-left: 50px;
+}
+
+.DListCinemaT {
+  color: rgb(102 178 255);
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.DContainer5 {
+  width: max-content;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+  transform: translateX(0px);
+  transition: all 1s ease;
+}
+.DListItemC {
+  width: 225px;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+  margin-right: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+
+}
+
+.DListItemC img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.DListItemC:hover {
+  width: 325px;
+  height: 300px;
+  top: auto;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.719);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.719);
+  border-radius: 5px;
+}
+
+.DListItemC:hover img {
+  height: 140px;
+}
+
+.DListItemC:hover .DIteminfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+.DButtonAA{
+  padding: 5px;
+}
+
+.DListItemC:hover .DIteminfo .DIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.DListItemC:hover .DIteminfo .DIcons .Dicon {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.DListItemC:hover .DIteminfo .DitemInfoTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 151, 151);
+}
+
+.DListItemC:hover .DIteminfo .DitemInfoTop .Dlimit {
+  border: 1px solid rgb(156, 156, 156);
+  padding: 1px 3px;
+  margin: 0 10px;
+}
+
+.DListItemC:hover .DIteminfo .Ddesc {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.DListItemC:hover .DIteminfo .Dgenre {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}

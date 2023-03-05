@@ -1,0 +1,15 @@
+
+.Pie01Title{
+    color: rgb(211, 207, 207);
+    margin-bottom: 10;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 300px;
+    margin-left: 20px;
+  
+}
+
+.PieGraph{
+    margin-left: 300px;
+}

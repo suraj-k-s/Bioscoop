@@ -1,0 +1,84 @@
+.topbar{
+    width:100%;
+    height:50px;
+    background-color:rgb(0 30 60);
+    position: sticky;
+    top:0;
+    bottom: 0;
+    z-index: 999;
+    border-bottom: 2px solid rgb(102 178 255);
+}
+.topbarwrapper{
+    height:100%;
+    padding: 0px 20px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    color: rgb(102 178 255);
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.topRight{
+    display: flex;
+    align-items: center;
+}
+.topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(102 178 255);
+  }
+.topIconBadge{
+    width:15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.dropdowntop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowntop-content {
+    display: none;
+    border-radius: 10%;
+    right: 0;
+    position: absolute;
+    background-color:rgb(0 30 60);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdowntop-content p {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+  }
+  .signingtop{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+  
+  .dropdowntop-content p:hover {background-color: rgb(102 178 255)}
+  
+  .dropdowntop:hover .dropdowntop-content {
+    display: block;
+  }

@@ -1,0 +1,70 @@
+.DistributorRequest{
+    flex: 2;
+    box-shadow: 0px 0px 5px 1px rgba(81,93,217,0.75);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(81,93,217,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(81,93,217,0.75);
+    padding: 20px;
+    margin-left:45px;
+    height: 450px;
+    width: 1055px;
+    color: rgb(211, 207, 207);
+    margin-right: 25px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+.widgetLgTitle8{
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.widgetLgTable8{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLgTh8{
+    text-align: left;
+}
+.widgetLgUser8{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetLgImg8{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widgetLgButton8{
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+   text-align: center;
+
+
+}
+.widgetLgStatus8{
+    background-color: #004d2f00;
+    color: #00ff84;
+}
+.widgetLgButton8.Accept{
+    background-color: #004d2f00;
+    color: #00ff84;
+}
+.widgetLgButton8.Reject{
+    background-color: #94000a00;
+    color: #ff4a4a;
+    display: inline-flex;
+
+}
+.widgetLgButton8.Accept:hover{
+    background-color: #00ff6242;
+}
+.widgetLgButton8.Reject:hover{
+    background-color: #ff00003a;
+}
+.widgwtLgDate8{
+    font-weight: 300;
+}

@@ -1,0 +1,40 @@
+.ListMovie {
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.WrapperC {
+  position: relative;
+}
+.sliderArrow {
+  color: black;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.301)   ;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+
+.ListCinemaT {
+  color: rgb(102 178 255);
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.Container5 {
+  width: max-content;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 10px;
+  transform: translateX(0px);
+  transition: all 1s ease;
+}

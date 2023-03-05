@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+   
+}
+.BodyD6{
+    background-color: rgb(0 30 60);
+}
+.containerdistributor{
+    display: flex;
+   height: fit-content;
+   
+  
+}
+.sticky{
+    position: sticky;
+}

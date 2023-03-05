@@ -1,0 +1,122 @@
+.Platform {
+    width: 84%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../../assets/images/pl.jpg");
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .Platform .containerppt {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    color: white;
+  }
+  .h14{
+      font-size: 32px;
+      font-weight: 600;
+    color: rgb(233, 233, 233);
+    text-align: center;
+  }
+  
+  .Platform .containerppt form {
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  .Platform .containerppt form input {
+    height: 40px;
+    margin-top: -50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.413);
+    color: white;
+    padding-left: 10px;
+  
+  }
+  
+  .Platform .containerppt form input::-webkit-input-placeholder {
+    color: lightgray;
+  }
+  
+  .Platform .containerppt form input:-ms-input-placeholder {
+    color: lightgray;
+  }
+  
+  .Platform .containerppt form input::-ms-input-placeholder {
+    color: lightgray;
+  }
+  
+  .Platform .containerppt form input::placeholder {
+    color: lightgray;
+  }
+  
+  .Platform .containerppt form button {
+    height: 40px;
+    margin-top:-80px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(0, 69, 138);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  
+  }
+  
+  .Platform .containerppt form span {
+    color: lightgray;
+  }
+  
+  .Platform .containerppt form span {
+    color: white;
+  }
+  
+  .link-signup{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .widgetPL{
+    flex: 2;
+    box-shadow: 0px 0px 5px 1px rgba(81,93,217,0.75);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(244, 244, 255, 0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(81,93,217,0.75);
+    padding: 20px;
+    margin-left:80px;
+    margin-top: 500px;
+    margin-bottom: 25px;
+    height: 200px;
+    width: 1000px;
+    color: rgb(211, 207, 207);
+    background-color: rgb(0 30 60);
+   
+}
+.widgetTitlePL{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.widgetTablePL{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetThPL{
+    text-align: left;
+}

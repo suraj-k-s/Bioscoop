@@ -1,0 +1,44 @@
+.DListMovie {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    
+  }
+  .DWrapperC {
+    position: relative;
+  }
+  .DsliderArrow {
+    color: black;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.301)   ;
+  }
+  .left{
+      left: 0;
+      margin-right: 50px;
+  }
+  .right{
+      right: 0;
+      margin-left: 50px;
+  }
+  
+  .DListCinemaT {
+    color: rgb(102 178 255);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .DContainer5 {
+    width: max-content;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    transform: translateX(0px);
+    transition: all 1s ease;
+  }
+  
